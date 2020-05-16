@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>William Wats - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <!-- Gfonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+<body id="top">
+
+<header class="menu">
+    <!-- Navbar -->
+    <span class="hautMenu">
+        <a href="img/profile/profil.jpg" target="_blank">
+            <img src="img/profile/profil.jpg" alt="Image de Profil">
+        </a> Portfolio
+
+        <ul class="menuDesk">
+            <li><a href="#about" onclick="uncheckbox()"><i class="fas fa-home"></i> A propos de moi</a></li>
+            <li><a href="#skills" onclick="uncheckbox()"><i class="fas fa-award"></i> Compétences</a></li>
+            <li><a href="#studies" onclick="uncheckbox()"><i class="fas fa-image"></i> Etudes</a></li>
+            <li><a href="##portfolio" onclick="uncheckbox()"><i class="fas fa-portrait"></i> Portfolio</a></li>
+            <li><a href="##testimonials" onclick="uncheckbox()"><i class="fas fa-users"></i> Témoignages</a></li>
+            <li><a href="##contact" onclick="uncheckbox()"><i class="fas fa-address-book"></i> Contact</a></li>
+        </ul>
+    </span>
+    <input class="burger " type="checkbox" id="menuButton" onclick="checkbox()">
+    <nav id="navMenu" style="visibility: hidden">
+        <table>
+            <tr>
+                <td><a href="#about" onclick="uncheckbox()"><i class="fas fa-home"></i></a></td>
+                <td><a href="#about" onclick="uncheckbox()">A propos de moi</a></td>
+            </tr>
+            <tr>
+                <td><a href="#skills" onclick="uncheckbox()"><i class="fas fa-award"></i></a></td>
+                <td><a href="#skills" onclick="uncheckbox()">Compétences</a></td>
+            </tr>
+            <tr>
+                <td><a href="#studies" onclick="uncheckbox()"><i class="fas fa-image"></i></a></td>
+                <td><a href="#studies" onclick="uncheckbox()">Etudes</a></td>
+            </tr>
+            <tr>
+                <td><a href="##portfolio" onclick="uncheckbox()"><i class="fas fa-portrait"></i></a></td>
+                <td><a href="##portfolio" onclick="uncheckbox()">Portfolio</a></td>
+            </tr>
+            <tr>
+                <td><a href="##testimonials" onclick="uncheckbox()"><i class="fas fa-users"></i></a></td>
+                <td><a href="##testimonials" onclick="uncheckbox()">Témoignages</a></td>
+            </tr>
+            <tr>
+                <td><a href="##contact" onclick="uncheckbox()"><i class="far fa-address-book"></i></a></td>
+                <td><a href="##contact" onclick="uncheckbox()">Contact</a></td>
+            </tr>
+
+        </table>
+    </nav>
+    <!-- End Navbar -->
+</header>
+<main>
+    <!-- About -->
+    <section id="about">
+        <div class="titre"><h2>A propos de Moi :</h2></div>
+        <div class="about-container">
+            <p class="about01">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam delectus enim in nulla omnis. Accusamus
+                accusantium consequuntur, ducimus harum illo officia tempora veritatis vitae voluptatibus!</p>
+            <p class="about02">A aliquam delectus dicta dolore dolorum ducimus, maxime mollitia numquam officia, quidem ut, voluptas
+                voluptatem voluptates? Asperiores deleniti impedit, libero maiores minima qui ratione recusandae!</p>
+            <img src="img/about.jpg" class="imageAbout01" alt="imageAbout">
+            <p class="about03">Blanditiis cupiditate doloremque facilis harum magnam obcaecati quia vero! A animi consectetur expedita
+                recusandae sit sunt? Cumque dolor eius eos labore libero, modi repellat unde?</p>
+            <p class="about04">A aut, beatae cum debitis doloremque earum excepturi exercitationem explicabo fugit nisi nobis omnis,
+                pariatur porro quam rem repudiandae temporibus. Corporis culpa dolorem nisi ut.</p>
+        </div>
+    </section>
+
+<!--    skills and studies box-->
+    <div class="skills-studies-box">
+    <!-- Skills -->
+    <section id="skills">
+        <div class="titre"><h2>Mes compétences :</h2><p>Des compétences à votre service</p></div>
+        <div class="skills-container">
+            <div>
+                <ul>
+                    <li><p class="subject">Portrait :</p></li>
+                    <li><div class="advancement"><span style="width: 68%">68%</span></div></li>
+                    <li><p class="subject">Paysage :</p></li>
+                    <li><div class="advancement"><span style="width: 82%">82%</span></div></li>
+                    <li><p class="subject">Nature :</p></li>
+                    <li><div class="advancement"><span style="width: 70%">70%</span></div></li>
+                    <li><p class="subject">Ville :</p></li>
+                    <li><div class="advancement"><span style="width: 30%">30%</span></div></li>
+                    <li><p class="subject">Aquatique:</p></li>
+                    <li><div class="advancement"><span style="width: 20%">20%</span></div></li>
+                    <li><p class="subject">Mariage:</p></li>
+                    <li><div class="advancement"><span style="width: 85%">85%</span></div></li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Experiences -->
+    <section id="studies">
+        <div class="titre"><h2>Mes Études :</h2><p>Les différentes formations auxquelles j'ai participé</p></div>
+        <div class="studies-container">
+            <div class="ULiege">
+                <h3>Université de Liège </h3>
+                <ul>
+                    <li>Lorem ipsum dolor.</li>
+                    <li>Est, fuga, tempore.</li>
+                    <li>Illo ipsum, quos.</li>
+                    <li>Aliquam, suscipit, voluptates?</li>
+                    <li>Ipsam, officia, porro.</li>
+                    <li>Ea labore, laborum?</li>
+                    <li>Commodi iusto, odio!</li>
+                    <li>Ad, suscipit, tempora.</li>
+                    <li>In, quibusdam sed!</li>
+                    <li>Consequuntur, esse, non.</li>
+                </ul>
+            </div>
+            <div class="ULB">
+                <h3><span>MASTER -</span>Université Libre de Bruxelles</h3>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Odit placeat quis repellendus voluptatem!</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    </div>
+<!--    Portfolio-->
+    <section id="#portfolio">
+        <div class="titre"><h2>Mon Portfolio :</h2><p>Les Projets auxquels j'ai participé</p></div>
+        <br>
+        <div class="portfolio-container">
+            <div class="imageBox">
+                <img src="img/portfolio/portrait.jpg" alt="portrait">
+                <div class="hoverText gris">
+                    <h3>Portraits de Célébrités</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet architecto commodi consequuntur cumque cupiditate delectus ex excepturi, facilis fugiat id incidunt, ipsum maxime quis rem sunt suscipit, temporibus voluptas!</p>
+                </div>
+            </div>
+            <div class="imageBox">
+                <img src="img/portfolio/ocean.jpg" alt="ocean">
+                <div class="hoverText blanc">
+                    <h3>Paysages Aquatiques</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet architecto commodi consequuntur cumque cupiditate delectus ex excepturi, facilis fugiat id incidunt, ipsum maxime quis rem sunt suscipit, temporibus voluptas!</p>
+                </div>
+            </div>
+            <div class="imageBox">
+                <img src="img/portfolio/ville.jpg" alt="ville">
+                <div class="hoverText blanc">
+                    <h3>Paysage Urbains</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet architecto commodi consequuntur cumque cupiditate delectus ex excepturi, facilis fugiat id incidunt, ipsum maxime quis rem sunt suscipit, temporibus voluptas!</p>
+                </div>
+            </div>
+            <div class="imageBox">
+                <img src="img/portfolio/mariage.jpg" alt="mariage">
+                <div class="hoverText blanc">
+                    <h3>Evénements Publics et Privés</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias amet architecto commodi consequuntur cumque cupiditate delectus ex excepturi, facilis fugiat id incidunt, ipsum maxime quis rem sunt suscipit, temporibus voluptas!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--    Testimonials-->
+    <section id="#testimonials">
+        <div class="titre"><h2>Témoignages :</h2><p>Des clients toujours satisfaits</p></div>
+        <div class="testimonials-container">
+            <div>
+                <h3>Jean-Charles LeBleu</h3>
+                <img src="img/testimonials/JcLeBleu.jpg" alt="Jean-Charles LeBleu">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis illo praesentium quia.</p>
+                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+            </div>
+            <div>
+                <h3>Jean-Eudes LeVert</h3>
+                <img src="img/testimonials/JeLeVert.jpg" alt="Jean-Eudes LeVert">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis illo praesentium quia.</p>
+                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+            </div>
+            <div>
+                <h3>Jean-Phillibert LeMauve</h3>
+                <img src="img/testimonials/JpLeMauve.jpg" alt="Jean-Phillibert LeMauve">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis illo praesentium quia.</p>
+                <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></p>
+            </div>
+            <div>
+                <h3>Kovide Dizenœuf</h3>
+                <img src="img/testimonials/Kovide19jpg.jpg" alt="Kovide Dizenœuf">
+                <p>Lorem <ipsum></ipsum> dolor sit amet, consectetur adipisicing elit. Corporis illo praesentium quia.</p>
+                <p><i class="icofont-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+            </div>
+        </div>
+    </section>
+<!--    Contact-->
+    <section id="#contact">
+        <div class="titre"><h2>Me Contacter :</h2><p>Me Laisser un message</p></div>
+        <div class="contact-container">
+            <div>
+                <form action="#" method="post">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="lastname">Nom:</label><br>
+                                <input type="text" id="lastname" placeholder="Votre Nom" required>
+                            </td>
+                            <td>
+                                <label for="firstname">Prénom:</label><br>
+                                <input type="text" id="firstname" placeholder="Votre Prénom" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="mail">Email:</label><br>
+                                <input type="mail" id="mail" placeholder="Votre@mail" required>
+                            </td>
+                            <td>
+                                <label for="subject">Objet:</label><br>
+                                <input type="text" placeholder="Objet" id="subject" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="message">Votre message</label><br>
+                                <textarea id="message" cols="30" rows="6" placeholder="Votre message" required></textarea>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <input type="submit" value="envoyer">
+                </form>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <div>
+                        <span>Adresse:<br>
+                        Rue de Namur 58, 1400 Nivelles</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div>
+                        <span>Mon Adresse Mail:<br>
+                        john@doe.com</span>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div>
+                        <span>M'appeler<br>
+                        +32 411 11.11.11</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158.28155926826264!2d4.32743863691369!3d50.59915408291497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c232d34b212f1d%3A0x47079a48aa0bd001!2sRue%20de%20Namur%2058%2C%201400%20Nivelles!5e0!3m2!1sfr!2sbe!4v1589643631946!5m2!1sfr!2sbe" allowfullscreen="" tabindex="0"></iframe>
+            </div>
+        </div>
+    </section>
+</main>
+<!--footer-->
+<footer>
+    <div class="footer-container">
+        <div>
+            <h3>John Doe</h3>
+            <p>Photographe Professionel</p>
+
+            <p><a href="#top"><i class="fas fa-arrow-circle-up"></i>&nbsp;Haut de page</a></p>
+        </div>
+        <div>
+            <h3>Mes réseaux Sociaux</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.discord.com/" target="_blank"><i class="fab fa-discord"></i></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<!-- Scripts JS -->
+<script src="js/all.min.js"></script>
+<script>
+    function uncheckbox() {
+        document.getElementById("menuButton").checked = false;
+        checkbox()
+        }
+
+    function checkbox() {
+        let visibility = document.getElementById("navMenu").style.visibility;
+        if (visibility === "hidden") document.getElementById("navMenu").style.visibility = "visible"
+        else document.getElementById("navMenu").style.visibility = "hidden"
+    }
+</script>
+</body>
+</html>
